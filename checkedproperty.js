@@ -22,13 +22,13 @@ mySubmit.onclick = function() {
         paymentResult.textContent = `You are Paying with Visa`;
     }
     else if(masterCardBtn.checked){
-        paymentResult.textContent = `You are Paying with MasterCard`
+        paymentResult.textContent = `You are Paying with Master Card`;
     }
      else if(verveBtn.checked){
-        paymentResult.textContent = `You are Paying with Verve`
+        paymentResult.textContent = `You are Paying with Verve`;
     }
     else{
-        paymentResult.textContent = `Select Payment Method`
+        paymentResult.textContent = `Select Payment Method`;
     }
 
 }
