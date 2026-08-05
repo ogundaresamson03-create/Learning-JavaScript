@@ -71,9 +71,63 @@
 
 // Major Example: Find odd Number
 
-for (let i = 1; i <= 100; i++) {
-    if (i % 2 == 0) {
-        console.log(i);
-    }
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 2 == 0) {
+//         console.log(i);
+//     }
         
-}
+// }
+
+// WHILE LOOPS
+
+// let i = 1;
+// while (i <= 5) {
+//     console.log(i);
+//     i++;
+// }
+
+// let i = 5;
+// while (i >= 1) {
+//     console.log(i);
+//     i--;
+// }
+
+// X-table using while loop
+
+// let i = 1;
+
+// while (i <= 40) {
+//     console.log(`5 x ${i} = ${5 * i}`);
+//     i++;
+// }
+
+// loof for array
+
+// const fruits = ["apple", "orange", "pineapple", "banana", "mango"];
+
+// for (let i = 0; i < fruits.length; i++){
+//     console.log(fruits[i]);
+// }
+
+// for of loop
+
+// const fruits = ["apple", "orange", "pineapple", "banana", "mango"];
+// for (const fruit of fruits) {
+//     console.log(fruit);
+// }
+
+// DO WHILE LOOP
+
+// let i = 1;
+// do {
+//     console.log(i);
+//     i++;
+// } while (i <= 5);
+
+let i = 1;
+do {
+    if ( i % 2 !== 0) {
+         console.log(i);
+    }
+    i++;
+} while (i <= 100);
