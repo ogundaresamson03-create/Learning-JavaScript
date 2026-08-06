@@ -65,3 +65,4 @@
 // const fruits = ["apple", "orange", "pineapple", "banana", "mango"];
 
 // console.log(fruits.reverse());
+
