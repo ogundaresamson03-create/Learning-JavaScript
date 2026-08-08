@@ -34,14 +34,15 @@
 
 // console.log(isEven(3));
 
-function isValidEmail(email){
-        // if(email.includes("@")){
-        //     return true;
+// function isValidEmail(email){
+//         // if(email.includes("@")){
+//         //     return true;
 
-        // } else{
-        //     return false
-        // } 
-        return email.includes("@") ? true : false;
-}
+//         // } else{
+//         //     return false
+//         // } 
 
-console.log(isValidEmail("zeesargmail.com"));
+//         return email.includes("@") ? true : false;
+// }
+
+// console.log(isValidEmail("zeesargmail.com"));
